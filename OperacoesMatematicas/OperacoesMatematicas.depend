@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1742889849 source:c:\users\alvar\documents\ceunsp\docente\disciplinasministradas\2025\primeirosemestre\disciplinas\3_progcomputadores_itu\projetos\operacoesmatematicas\main.c
+	<stdio.h>
+	<locale.h>
+

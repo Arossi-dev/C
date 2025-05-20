@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1742799307 source:c:\users\alvar\documents\ceunsp\docente\disciplinasministradas\2025\primeirosemestre\disciplinas\3_progcomputadores_itu\projetos\aula01_helloworld\main.c
+	<stdio.h>
+	<stdlib.h>
+
