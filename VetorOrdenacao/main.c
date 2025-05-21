@@ -2,11 +2,21 @@
 #include <stdlib.h>
 
 
-void mostrarVetorOrdenado(int vetor[], int tamanho) {
+void mostrarVetorOrdenado(int xxx[], int yyy) {
     printf("\nVetor ordenado em ordem crescente:\n");
-    for (int i = 0; i < tamanho; i++) {
-        printf("vetor[%d] = %d\n", i, vetor[i]);
+    for (int i = 0; i < yyy; i++) {
+        printf("vetor[%d] = %d\n", i, xxx[i]);
     }
+}
+
+void imprimeValorDesejado(int a, int b, int c){
+    printf("\nValor 1 -> %d\n", a);
+    printf("Valor 2 -> %d\n", b);
+    printf("Valor 3 -> %d\n", c);
+}
+
+void somaDoisNumeros( int x, int y){
+    printf("\nSoma %d com %d = %d\n", x, y, x+y);
 }
 
 int main()
@@ -50,8 +60,24 @@ int main()
         }
     }
 
+
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            if (vetor[i] < vetor[j]) {
+                int temp = vetor[i];
+                vetor[i] = vetor[j];
+                vetor[j] = temp;
+            }
+        }
+    }
+
+
     // Mostrar vetor ordenado
     mostrarVetorOrdenado(vetor, 5);
+
+    imprimeValorDesejado(5, 10, 9);
+
+    somaDoisNumeros(25,59);
 
     return 0;
 }
